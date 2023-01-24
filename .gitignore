@@ -17,6 +17,8 @@ dist-ssr
 yarn.lock
 yarn-error.log
 package-lock.json
+.pnp.cjs
+.pnp.loader.mjs
 
 
 # Editor directories and files
