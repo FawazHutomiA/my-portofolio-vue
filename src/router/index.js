@@ -21,7 +21,7 @@ const router = createRouter({
 
 // set title page
 router.beforeEach((to, from, next) => {
-    document.title = to.meta.title;
+    document.title = `Fawaz Hutomi Abdurahman | ${to.meta.title}`;
     next();
 });
 
