@@ -1,31 +1,17 @@
 <template>
-    <div class="bg">
-        <h1>{{ message }}</h1>
-        <h3>{{ me }}</h3>
-    </div>
+  <div class="container mx-auto">
+    <me></me>
+  </div>
 </template>
 <script>
+import Me from "@/fragments/home/Me.vue";
 export default {
-    name: 'Home',
-    data() {
-        return {
-            me: 'انا فواز حتومي عبد الرحمن'
-        }
-    },
-    computed: {
-        message() {
-            return this.$store.root.message
-        }
-    }
-}
+  name: "Home",
+  components: {
+    Me,
+  },
+  data() {
+    return {};
+  },
+};
 </script>
-<style scoped>
-.bg{
-    background-color: #f5f5f5;
-    width: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-</style>
