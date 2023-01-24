@@ -1,5 +1,5 @@
 <template>
-  <navbar class="mb-8"></navbar>
+  <navbar></navbar>
   <router-view></router-view>
 </template>
 <script>
