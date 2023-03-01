@@ -9,6 +9,11 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
-    extensions: ['.js', '.vue', '.json'],
-  }
+    extensions: [".js", ".vue", ".json"],
+  },
+  server: {
+    host: "hutomifawaza.me",
+    port: 8080,
+    https: false,
+  },
 });
