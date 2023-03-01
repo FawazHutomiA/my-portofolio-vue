@@ -66,11 +66,5 @@ export default {
       ],
     };
   },
-  computed: {
-    // spread data tools
-    tools() {
-      return this.data.map((item) => item.tools);
-    },
-  },
 };
 </script>
